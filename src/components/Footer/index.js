@@ -149,11 +149,12 @@ const Footer=()=>{
             </section>
 
             <section>
+            
                 <h2 className="footer-heading">metta muse ACCEPTS</h2>
-                <a href="" target="_blank"><FaGooglePay className="media"  size={56}/></a>
-                <a href="" target="_blank"><BsPaypal className="media"  size={36}/></a>
-                <a href="" target="_blank"><FaApplePay className="media"  size={56}/></a>
-                <a href="" target="_blank"><LiaAmazonPay className="media"  size={56}/></a>
+                <p><FaGooglePay className="media"  size={56}/></p>
+                <p><BsPaypal className="media"  size={36}/></p>
+                <p><FaApplePay className="media"  size={56}/></p>
+                <p><LiaAmazonPay className="media"  size={56}/></p>
             </section>
             </section>
         </div>

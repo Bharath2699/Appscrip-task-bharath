@@ -51,10 +51,10 @@ const Header=()=>{
        
              <nav className={menuToggle===true?"show":"hide"}>
                   <Link to="/"><li className="page-link">SHOP</li></Link>
-                  <Link to="/"><li className="page-link">SKILLS</li></Link>
-                  <Link to="/"><li className="page-link">STORIES</li></Link>
-                  <Link to="/"><li className="page-link">ABOUT</li></Link>
-                  <Link to="/"><li className="page-link">CONTACT US</li></Link>
+                  <Link to="/skills"><li className="page-link">SKILLS</li></Link>
+                  <Link to="/stories"><li className="page-link">STORIES</li></Link>
+                  <Link to="/about"><li className="page-link">ABOUT</li></Link>
+                  <Link to="/contact"><li className="page-link">CONTACT US</li></Link>
                </nav>
         </header>
         
