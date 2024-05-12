@@ -1,0 +1,34 @@
+.customize-card{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.name-togglebar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+
+.selection-card{
+    display: flex;
+    flex-direction: column;justify-content: flex-start;
+    align-items: center;
+}
+
+.customize-name{
+    font-size:15px ;
+    color:#252020;
+    line-height:17.6px ;
+    text-align: center;
+    font-weight: 700;
+}
+
+.selected-value{
+    font-size:15px ;
+    color:#252020;
+    line-height:17.6px ;
+    font-weight: 400;
+    padding: 4px;
+}

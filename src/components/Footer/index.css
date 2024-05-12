@@ -1,0 +1,266 @@
+footer{
+    width: 100%;
+    height: 750px;
+    background-color: #000000;
+}
+
+.subscribe-contactus-details-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subscribe-section{
+    width: 40%;
+}
+
+.footer-heading{
+    font-family:Simplon Norm;
+    font-size:20px ;
+    color:
+    #FFFFFF;
+    line-height:24px ;
+    font-weight: 700;
+}
+
+.subscribe-description-details{
+    font-family:Simplon Norm;
+    font-size:16px ;
+    color:
+    #FFFFFF;
+    line-height:19.6px ;
+    font-weight: 400;
+}
+
+.subscription-email-section{
+    margin-top: 15px;
+}
+
+.email-input{
+    height: 47px;
+    width: 384px;
+    padding: 
+    14px, 24px, 14px, 24px;
+    border-radius:6px ;
+    background-color:#FFFFFF ;
+    color: #BFC8CD;
+    font-size:18 px;
+    line-height: 21.6px;
+    font-weight:400 ;
+    font-family: 
+    Simplon Norm;
+}
+
+.subscribe-button{
+     margin: 10px;
+     height: 48px;
+    width: 184px;
+   border:1.14px #FFFFFF solid;
+    border-radius:6px ;
+    background-color:transparent;
+    color: #FFFFFF;
+    font-size:18 px;
+    line-height: 21.6px;
+    font-weight:500 ;
+    font-family: 
+    Simplon Norm;
+}
+
+.contact-us-details-section{
+    width: 40%;
+}
+
+.footer-heading{
+    color: #FFFFFF;
+    font-size:20 px;
+    line-height: 24px;
+    font-weight:700 ;
+    font-family: 
+    Simplon Norm;
+}
+
+.phone-no{
+    color: #FFFFFF;
+    font-size:16 px;
+    line-height: 19.2px;
+    font-weight:400 ;
+    font-family: 
+    Simplon Norm;
+}
+
+.email{
+    color: #FFFFFF;
+    font-size:16 px;
+    line-height: 19.2px;
+    font-weight:400 ;
+    font-family: 
+    Simplon Norm;
+}
+
+.currency-details{
+    margin-top: 10px;
+}
+
+.flag-currency-name{
+    display: flex;
+    align-items: center;
+}
+
+
+.currency-name{
+    color: #FFFFFF;
+    font-size:16 px;
+    line-height: 19.2px;
+    font-weight:400 ;
+    font-family: 
+    Simplon Norm;
+}
+
+.pages-quick-links-follow-us-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page-names{
+    color: #FFFFFF;
+    font-size:18 px;
+    line-height: 21.6px;
+    font-weight:400 ;
+    font-family: 
+    Simplon Norm;
+}
+
+.quick-links{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.link{
+    color: #FFFFFF;
+    font-size:18 px;
+    line-height: 21.6px;
+    font-weight:400 ;
+    font-family: 
+    Simplon Norm;
+}
+
+.social-media-links{
+    width: 100%;
+    display: flex;
+}
+
+.media{
+    height: 40px;
+    width: 65px;
+    background-color: white;
+    margin: 10px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size:18 px;
+    line-height: 21.6px;
+    font-weight:400 ;
+    font-family: 
+    Simplon Norm;
+    text-align: center;
+}
+
+.line-view{
+    display: none;
+}
+
+.usa-flag{
+    background-color: white;
+    color: blue;
+    height: 45px;
+    width: 50px;
+}
+
+
+.metta-muse-mobile-view{
+    display: none;
+}
+
+@media (max-width:767px){
+    footer{
+        background-color: #000000;
+        overflow-y:auto;
+        background-size: cover;
+    }
+    .line-view{
+        display: flex;
+        border:1 px #ffffff solid;
+        width: 100%;
+    }
+
+    .metta-muse-pages{
+        display: none;
+    }
+    
+    .quick-links{
+        display: none;
+    }
+
+    .follow-us-sction{
+        display: none;
+    }
+    .footer-heading{
+        font-size: 16px;
+    }
+
+    .metta-muse-mobile-view{
+        display: flex;
+    }
+    .name-toggle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .subscribe-contactus-details-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    .subscribe-section{
+        width: 100%;
+    }
+
+    .contact-us-details-section{
+        width: 100%;
+    }
+
+    .subscription-email-section{
+        display: flex;
+        align-items: center;
+    }
+
+    .email-input{
+        width: 150px;
+    }
+    .subscribe-button{
+        width: 85px;
+    }
+
+    .pages-quick-links-follow-us-section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.metta-muse-mobile-view{
+    display: none;
+}
+
+
+
+
+
